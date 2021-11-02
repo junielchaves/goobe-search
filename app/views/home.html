@@ -1,0 +1,37 @@
+<?php
+require_once 'app/views/templates/header-template.html';
+?>
+<main>
+
+  <!-------------------------------- Formulário de Busca --------------------------------------->
+  <section id="home-header" class="m-top">
+    <img src="app/asserts/images/goobe_logo.png" class="mx-auto d-block mt-5 mb-2" id="img-header" width="200" alt="">
+    <form class="container " id="form">
+      <input type="text" name="param" class="container form-control d-block mx-auto text-center fs-6 mt-3 mb-3 fw-bold" style="width:85%;border-radius:25px;padding:10px" id="form-input" placeholder="Digite o nome da vaga..." autocomplete="off" maxlength="15" required />
+      <button type="submit" class="btn btn-primary d-block mx-auto  shadow-sm py-2 px-4 fw-bold" style="border-radius:20px" id="btn-submit"><i class="fas fa-search btn-primary"></i> &nbsp;Pesquisar agora</button>
+    </form>
+    <a href="/home-pesquisa" style="text-decoration:none"><button type="submit" class="btn btn-primary d-none mx-auto vertical-bottom shadow-sm py-2 px-4 fw-bold " style="border-radius:20px" id="btn-new"><i class="fas fa-redo-alt btn-primary"></i> &nbsp;Nova Busca</button></a>
+  </section>
+  <!------------------------------------------------------------------------------------------->
+
+
+  <!------------------------------- Conteiner Resultado --------------------------------------->
+  <section class="conteiner-result mt-5">
+    <div id="box-result">
+    </div>
+  </section>
+  <!------------------------------------------------------------------------------------------->
+
+
+  <!------------------------------- Conteiner Resultado/Details --------------------------------------->
+  <section class="conteiner-result mt-5">
+    <div id="box-result-details" class="d-none">
+    </div>
+  </section>
+  <!------------------------------------------------------------------------------------------->
+
+</main>
+
+<?php
+require_once 'app/views/templates/footer-template.html';
+?>
