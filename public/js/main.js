@@ -9,7 +9,7 @@ let img = document.querySelector("#img-header");
 
 form.addEventListener("submit", (e)=> {
   e.preventDefault();
-  let url = "../app/modules/searchData.php";
+  let url = "./app/modules/searchData.php";
 
 
   result.innerHTML = '<br><div class="d-flex justify-content-center text-warning" style="margin-top:25vh"><div class="spinner-border" role="status"><span class="visually-hidden">Loading...</span></div></div>';

@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '44b4affc031e4275038b8b761cbb329752c2623d',
         'name' => 'juniel/app-goobe',
         'dev' => true,
     ),
     'versions' => array(
         'juniel/app-goobe' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '44b4affc031e4275038b8b761cbb329752c2623d',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-ctype' => array(
