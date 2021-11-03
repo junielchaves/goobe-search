@@ -75,7 +75,7 @@ echo "<a class=' btn btn-sm btn-success py-1 px-3 mb-2 mt-2 fw-bold b-radius'  h
 
 echo "<h6 class='d-inline align-bottom text-muted mt-5'>via &nbsp;</h6>";
 echo "<a class='d-inline  text-decoration-none mt-5 mb-3'  href='https://www.trabalhabrasil.com.br'  target='__blank'>";
-echo "<img src='app/asserts/images/trabalhabrasil.png' width='120' ></a>";
+echo "<img src='./public/images/trabalhabrasil.png' width='120' ></a>";
 
 echo "<h6 class='card-subtitle mb-2 mt-4 p-2'><b>Mais sobre está vaga:</b><br><br>".$jobs_description[0]."</h6>";
 echo "</div></div></div><br>";
