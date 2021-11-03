@@ -77,7 +77,7 @@ echo $jobs_local[$i] = $jobs_local[$i]?"<h6 class='card-subtitle mb-2 '> <i clas
 echo "<h6 class='d-block text-muted fs- p-1 mb-3 mt-3'>Código da Vaga: #".$jobs_cod[$i]."</h6>";
 echo "<h6 class='d-inline align-bottom text-muted mt-3'>via &nbsp;</h6>";
 echo "<a class='d-inline  text-decoration-none mt-3 mb-3'  href='https://www.trabalhabrasil.com.br'  target='__blank'>";
-echo "<img src='./public/images/trabalhabrasil.png' width='120' ></a>";
+echo "<img src='./images/trabalhabrasil.png' width='120' ></a>";
 $url_details = "https://www.trabalhabrasil.com.br".$jobs_link[$i];
 
 echo "<form id='form-details-".$i."'>";
